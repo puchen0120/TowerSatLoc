@@ -1,0 +1,176 @@
+{
+  "satellite_tif_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\input\\InitOriEst\\satellite\\luojiacun_utm_50N.tif",
+  "config": {
+    "camera_flag": 3,
+    "step_deg": 30.0,
+    "step_size": 0.25,
+    "interp_method": 2,
+    "isdem": false,
+    "top_k": 2,
+    "show": false,
+    "save_intermediate": true,
+    "use_delaunay": true,
+    "delaunay_threshold1": 0.6,
+    "delaunay_threshold2": 0.6
+  },
+  "case_results": [
+    {
+      "tower_image_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\input\\InitOriEst\\TBS\\27_48.jpg",
+      "location_code": "unknown",
+      "original_pan": 27.0,
+      "original_tilt": 48.0,
+      "selected_candidate": {
+        "tower_image_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\input\\InitOriEst\\TBS\\27_48.jpg",
+        "location_code": "unknown",
+        "original_pan": 27.0,
+        "original_tilt": 48.0,
+        "candidate_rank": 2,
+        "score": 233,
+        "pkl_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\output\\InitOriEst\\27_48__293_55\\case_1_27_48\\best_match\\candidate_2\\best_match.pkl",
+        "dom_image_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\output\\InitOriEst\\27_48__293_55\\case_1_27_48\\simulated_bev\\117.0_48.0_domImg.jpg",
+        "crop_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\output\\InitOriEst\\27_48__293_55\\case_1_27_48\\satellite_crops\\003.tif",
+        "match_image_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\output\\InitOriEst\\27_48__293_55\\case_1_27_48\\best_match\\candidate_2\\best_match.png",
+        "sim_index": 3,
+        "sim_pan": 117.0,
+        "inlier_count": 447,
+        "filtered_inlier_count": 233,
+        "affine_theta_deg": 359.9971629302459
+      },
+      "top_candidates": [
+        {
+          "tower_image_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\input\\InitOriEst\\TBS\\27_48.jpg",
+          "location_code": "unknown",
+          "original_pan": 27.0,
+          "original_tilt": 48.0,
+          "candidate_rank": 1,
+          "score": 263,
+          "pkl_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\output\\InitOriEst\\27_48__293_55\\case_1_27_48\\best_match\\candidate_1\\best_match.pkl",
+          "dom_image_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\output\\InitOriEst\\27_48__293_55\\case_1_27_48\\simulated_bev\\27.0_48.0_domImg.jpg",
+          "crop_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\output\\InitOriEst\\27_48__293_55\\case_1_27_48\\satellite_crops\\000.tif",
+          "match_image_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\output\\InitOriEst\\27_48__293_55\\case_1_27_48\\best_match\\candidate_1\\best_match.png",
+          "sim_index": 0,
+          "sim_pan": 27.0,
+          "inlier_count": 263,
+          "filtered_inlier_count": 263,
+          "affine_theta_deg": 20.70706813303631
+        },
+        {
+          "tower_image_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\input\\InitOriEst\\TBS\\27_48.jpg",
+          "location_code": "unknown",
+          "original_pan": 27.0,
+          "original_tilt": 48.0,
+          "candidate_rank": 2,
+          "score": 233,
+          "pkl_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\output\\InitOriEst\\27_48__293_55\\case_1_27_48\\best_match\\candidate_2\\best_match.pkl",
+          "dom_image_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\output\\InitOriEst\\27_48__293_55\\case_1_27_48\\simulated_bev\\117.0_48.0_domImg.jpg",
+          "crop_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\output\\InitOriEst\\27_48__293_55\\case_1_27_48\\satellite_crops\\003.tif",
+          "match_image_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\output\\InitOriEst\\27_48__293_55\\case_1_27_48\\best_match\\candidate_2\\best_match.png",
+          "sim_index": 3,
+          "sim_pan": 117.0,
+          "inlier_count": 447,
+          "filtered_inlier_count": 233,
+          "affine_theta_deg": 359.9971629302459
+        }
+      ]
+    },
+    {
+      "tower_image_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\input\\InitOriEst\\TBS\\293_55.jpg",
+      "location_code": "unknown",
+      "original_pan": 293.0,
+      "original_tilt": 55.0,
+      "selected_candidate": {
+        "tower_image_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\input\\InitOriEst\\TBS\\293_55.jpg",
+        "location_code": "unknown",
+        "original_pan": 293.0,
+        "original_tilt": 55.0,
+        "candidate_rank": 1,
+        "score": 1478,
+        "pkl_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\output\\InitOriEst\\27_48__293_55\\case_2_293_55\\best_match\\candidate_1\\best_match.pkl",
+        "dom_image_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\output\\InitOriEst\\27_48__293_55\\case_2_293_55\\simulated_bev\\383.0_55.0_domImg.jpg",
+        "crop_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\output\\InitOriEst\\27_48__293_55\\case_2_293_55\\satellite_crops\\003.tif",
+        "match_image_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\output\\InitOriEst\\27_48__293_55\\case_2_293_55\\best_match\\candidate_1\\best_match.png",
+        "sim_index": 3,
+        "sim_pan": 383.0,
+        "inlier_count": 1813,
+        "filtered_inlier_count": 1478,
+        "affine_theta_deg": 356.0632052132615
+      },
+      "top_candidates": [
+        {
+          "tower_image_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\input\\InitOriEst\\TBS\\293_55.jpg",
+          "location_code": "unknown",
+          "original_pan": 293.0,
+          "original_tilt": 55.0,
+          "candidate_rank": 1,
+          "score": 1478,
+          "pkl_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\output\\InitOriEst\\27_48__293_55\\case_2_293_55\\best_match\\candidate_1\\best_match.pkl",
+          "dom_image_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\output\\InitOriEst\\27_48__293_55\\case_2_293_55\\simulated_bev\\383.0_55.0_domImg.jpg",
+          "crop_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\output\\InitOriEst\\27_48__293_55\\case_2_293_55\\satellite_crops\\003.tif",
+          "match_image_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\output\\InitOriEst\\27_48__293_55\\case_2_293_55\\best_match\\candidate_1\\best_match.png",
+          "sim_index": 3,
+          "sim_pan": 383.0,
+          "inlier_count": 1813,
+          "filtered_inlier_count": 1478,
+          "affine_theta_deg": 356.0632052132615
+        },
+        {
+          "tower_image_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\input\\InitOriEst\\TBS\\293_55.jpg",
+          "location_code": "unknown",
+          "original_pan": 293.0,
+          "original_tilt": 55.0,
+          "candidate_rank": 2,
+          "score": 808,
+          "pkl_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\output\\InitOriEst\\27_48__293_55\\case_2_293_55\\best_match\\candidate_2\\best_match.pkl",
+          "dom_image_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\output\\InitOriEst\\27_48__293_55\\case_2_293_55\\simulated_bev\\563.0_55.0_domImg.jpg",
+          "crop_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\output\\InitOriEst\\27_48__293_55\\case_2_293_55\\satellite_crops\\009.tif",
+          "match_image_path": "E:\\work\\TowerSatLoc-code\\dist_latest\\TowerSatLocGUI\\output\\InitOriEst\\27_48__293_55\\case_2_293_55\\best_match\\candidate_2\\best_match.png",
+          "sim_index": 9,
+          "sim_pan": 563.0,
+          "inlier_count": 930,
+          "filtered_inlier_count": 808,
+          "affine_theta_deg": 352.2199346589681
+        }
+      ]
+    }
+  ],
+  "compensation_result": {
+    "status": "valid",
+    "message": "Current frame pair passed the consistency check.",
+    "rotation_direction": "clockwise",
+    "compensation": 88.0301840717537,
+    "compensation_normalized": 88.0301840717537,
+    "decision_values": [
+      89.9971629302459,
+      86.06320521326148
+    ],
+    "decision_mean": 88.0301840717537,
+    "decision_mean_normalized": 88.0301840717537,
+    "decision_difference": 3.9339577169844233,
+    "selected_candidate_ranks": [
+      2,
+      1
+    ],
+    "attempted_pairs": [
+      {
+        "case_1_candidate_rank": 1,
+        "case_2_candidate_rank": 1,
+        "decision_values": [
+          20.70706813303631,
+          86.06320521326148
+        ],
+        "decision_difference": 65.35613708022518,
+        "combined_score": 1741
+      },
+      {
+        "case_1_candidate_rank": 2,
+        "case_2_candidate_rank": 1,
+        "decision_values": [
+          89.9971629302459,
+          86.06320521326148
+        ],
+        "decision_difference": 3.9339577169844233,
+        "combined_score": 1711
+      }
+    ]
+  }
+}
