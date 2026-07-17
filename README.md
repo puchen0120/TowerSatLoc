@@ -48,6 +48,8 @@ Recommended:
 
 If you use this software in research, please cite:
 
+TowerSatLoc matching:
+
 ```bibtex
 @article{chen2026bridging,
   title={Bridging extreme viewpoint gap: Robust cross-domain matching of tower surveillance and satellite images for precise geolocation},
@@ -57,6 +59,10 @@ If you use this software in research, please cite:
   publisher={IEEE}
 }
 ```
+
+Tower image georeferenced mapping:
+
+[1] 陈璞, 刘玉轩, 张力, 等. 语义-几何特征引导的塔基影像地理映射方法[J]. 光学学报, 2026, 46(12): 426-440.
 
 ## Acknowledgement
 
